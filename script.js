@@ -20,7 +20,7 @@ dateOptionsSelectElement.addEventListener("change", () =>{
         .split("-")
         .reverse()
         .join("-");
-        console.log(currentDateParagraph.textContent);
+        // console.log(currentDateParagraph.textContent);
         break;
 
         case "mm-dd-yyyy-h-mm":
